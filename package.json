@@ -4,8 +4,8 @@
   "description": "Setup for hack-day at </salt>",
   "main": "index.js",
   "scripts": {
-    "start-server": "cd client && npm start",
-    "start-client": "cd server && npm start"
+    "start-client": "cd client && npm start",
+    "start-server": "cd server && npm start"
   },
   "author": "Viktor Zetterström",
   "license": "ISC",
