@@ -1,0 +1,20 @@
+{
+  "name": "hack-day-server",
+  "version": "0.0.1",
+  "description": "Backend for hack-day at </salt>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Viktor Zetterström",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0"
+  }
+}

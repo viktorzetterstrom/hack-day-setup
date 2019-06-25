@@ -1,0 +1,13 @@
+{
+  "name": "hack-day",
+  "version": "0.0.1",
+  "description": "Setup for hack-day at </salt>",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "cd client && npm start",
+    "start-client": "cd server && npm start"
+  },
+  "author": "Viktor Zetterström",
+  "license": "ISC",
+  "devDependencies": {}
+}
