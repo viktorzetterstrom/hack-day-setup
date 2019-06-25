@@ -10,8 +10,8 @@ function App() {
       .then(setTest);
   }, []);
 
-  const listUser = user => (
-    <p>
+  const listUser = (user, index) => (
+    <p key={index}>
       {user.id}
       -
       {user.name}
