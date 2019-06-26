@@ -8,16 +8,10 @@ const port = 8080;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/users', db.getUsers);
-app.get('/users/:id', db.getUserById);
-app.post('/users', db.createUser);
-app.purge('/users/:id', db.updateUser);
-app.delete('/users/:id', db.deleteUser);
+app.get('/api/users', db.getUsers);
+app.get('/api/users/:id', db.getUserById);
+app.post('/api/users', db.createUser);
+app.put('/api/users/:id', db.updateUser);
+app.delete('/api/users/:id', db.deleteUser);
 
-app.get('/testing', (req, res) => {
-  res.send('hej');
-});
-
-app.listen(port, () => {
-  console.log(`App running on ${port}`);
-});
+app.listen(port);
